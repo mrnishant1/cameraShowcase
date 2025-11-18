@@ -32,14 +32,6 @@ const Pagetwo = () => {
           </a>
         </div>
 
-        {/* <div className="col-span-1 flex  relative z-20">
-          <img
-            src="camera.png"
-            alt="Fujifilm Retro Camera"
-            className="w-full absolute top-0 -translate-y-1/2"
-            style={{ filter: "drop-shadow(25px 25px 10px rgba(0, 0, 0, 0.3))" }}
-          />
-        </div> */}
 
         <div className="col-span-1 flex flex-col  gap-6 z-10 pl-5 right-0">
           <div className="pt-4 border-t border-text-dark">

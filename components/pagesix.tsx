@@ -1,11 +1,14 @@
+import Image from "next/image";
 import React from "react";
 
 const Pagesix = () => {
   return (
     <div className="mt-24 pt-10 pl-[70px] pr-10  flex justify-between items-start pb-10">
       <div className="w-1/2 overflow-hidden h-auto relative">
-        <img
-          src="photo5.jpg"
+        <Image
+          width={500}
+          height={100}
+          src="/photo5.jpg"
           alt="Urban/Artistic Scene"
           className="w-full h-full object-cover"
         />

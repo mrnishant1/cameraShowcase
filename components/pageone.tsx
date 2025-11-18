@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useRef } from "react";
 import Lenis from "lenis";
+import Image from "next/image";
 
 const Pageone = () => {
   const cameraRef = useRef(null);
@@ -263,9 +264,11 @@ const Pageone = () => {
               BUY NOW
             </a>
           </header>
-          <img
+          <Image
+            height={100}
+            width={200}
             ref={cameraRef}
-            src="camera.png"
+            src="/camera.png"
             alt="Fujifilm Retro Camera"
             className="absolute w-[45vw] transform  z-20 left-[25%] top-[15%] "
             style={{
@@ -283,11 +286,6 @@ const Pageone = () => {
               RELEASE
             </h1>
 
-            {/* <img
-              src="mini-camera.png"
-              alt="Mini Camera"
-              className="zoomAnimation absolute w-[10vw] top-[20%] right-[15%] transform rotate-5 z-21"
-            /> */}
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Pagethree = () => {
@@ -14,8 +15,10 @@ const Pagethree = () => {
 
         <div className="retroSection flex flex-row justify-between relative pl-10">
           <div className="relative top-24 w-[25vw] h-[25vw]  bg-video-bg z-15 shadow-lg">
-            <img
-              src="photo4.jpg"
+            <Image
+              width={200}
+              height={100}
+              src="/photo4.jpg"
               alt="Vintage Footage"
               className="w-full h-full object-cover opacity-80"
             />
