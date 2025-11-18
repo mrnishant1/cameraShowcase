@@ -21,7 +21,7 @@ const Pagefive = () => {
 
           <div className="flex flex-col items-center h-auto basis-1/3 shrink-0 relative top-[-30px]">
             <div className="w-[90%] h-[150px]"></div>
-            <div className="relative bottom-[-105px]">
+            <div className="relative bottom-[-205px]">
               <div className="text-sm font-bold">FUJIFILM XF10 brown</div>
             <div className="text-sm mt-1">$546.00</div>
             </div>
